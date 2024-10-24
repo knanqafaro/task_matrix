@@ -123,8 +123,7 @@ p {
 }
 
 
-/* Language bar styling */
-/* Language bar styling */
+
 .language-bar {
     display: flex;
     gap: 20px;
@@ -146,7 +145,7 @@ p {
     cursor: pointer;
 }
 
-/* Dropdown content (hidden by default) */
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -156,7 +155,6 @@ p {
     z-index: 1;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -164,17 +162,16 @@ p {
     display: block;
 }
 
-/* Show the dropdown menu on hover */
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {
     background-color: #ddd;
 }
 
-/* Change the background color of the dropdown button on hover */
+
 .dropbtn:hover {
     background-color: #ddd;
 }
@@ -249,12 +246,12 @@ p {
     border-radius: 4px;
     display: flex;
     align-items: center;
-    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Effekt əlavə olundu */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; 
 }
 
 .categories > a:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Hover zamanı kölgə effekti */
-    transform: translateY(-2px); /* Yuxarı çıxırmış kimi effekt */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+    transform: translateY(-2px); 
 }
 
 .category-help {
@@ -273,7 +270,7 @@ p {
 }
 
 .dropdown {
-    display: none; /* Başlanğıcda gizli */
+    display: none; 
     position: absolute;
     top: 100%;
     left: 0;
@@ -300,32 +297,32 @@ p {
 }
 
 .social-icons a {
-    color: white; /* Default color for the icons */
-    transition: color 0.3s; /* Smooth transition effect */
+    color: white; 
+    transition: color 0.3s; 
 }
 
 .social-icons a.twitter:hover {
-    color: #1DA1F2; /* Twitter blue */
+    color: #1DA1F2; 
 }
 
 .social-icons a.facebook:hover {
-    color: #1877F2; /* Facebook blue */
+    color: #1877F2; 
 }
 
 .social-icons a.pinterest:hover {
-    color: #E60023; /* Pinterest red */
+    color: #E60023; 
 }
 
 .social-icons a.reddit:hover {
-    color: #FF4500; /* Reddit orange */
+    color: #FF4500; 
 }
 
 .social-icons a.youtube:hover {
-    color: #FF0000; /* YouTube red */
+    color: #FF0000; 
 }
 
 .social-icons a.instagram:hover {
-    color: #C13584; /* Instagram gradient */
+    color: #C13584; 
 }
 
 
@@ -336,7 +333,7 @@ p {
 }
 
 .categories > .primary:hover + .dropdown {
-    display: block; /* Yalnız "All category" üzərinə hover ediləndə açılır */
+    display: block; 
 }
 
 .number-info {
@@ -354,7 +351,7 @@ p {
     margin-right: 8px;
 }
 
-/* Digər linklər üçün hover effekti */
+
 .bottom-nav a:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     transform: translateY(-2px);
@@ -578,7 +575,7 @@ p {
     overflow: hidden;
 }
 
-/* Left panel styling */
+
 .left-panel {
     padding: 20px;
     background-color: #fff;
@@ -586,13 +583,13 @@ p {
     transition: box-shadow 0.2s ease;
 }
 
-/* Hover effect for shadow */
+
 .left-panel:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-    transform: translateY(-5px); /* Optional: adds a slight upward motion */
+    transform: translateY(-5px); 
 }
 
-/* Styling for other elements */
+
 .advert {
     position: relative;
     margin-bottom: 15px;
@@ -672,34 +669,32 @@ p {
 }
 .category-container {
     display: flex;
-    overflow-x: auto; /* Yatay sürüşdürmə üçün */
-    padding: 20px; /* Üst və alt boşluq */
-    gap: 20px; /* Elementlər arasında boşluq */
-    scroll-behavior: smooth; /* Hamar sürüşdürmə */
+    overflow-x: auto; 
+    padding: 20px;
+    gap: 20px; 
+    scroll-behavior: smooth; 
 }
 
 .category {
-    background-color: #fff; /* Arxa fon */
-    border-radius: 10px; /* Kənarları yuvarlaqlaşdır */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Kölgə */
-    text-align: center; /* Mətni ortala */
-    padding: 15px; /* Daxili boşluq */
-    min-width: 150px; /* Hər kateqoriya üçün minimum genişlik */
-    cursor: pointer; /* Kursuru göstəriş edəcək */
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    padding: 15px; 
+    min-width: 150px; 
+    cursor: pointer; 
 }
 
-/* Şəkil stili */
 .category img {
-    max-width: 80%; /* Şəkilin maksimum eni */
-    height: auto; /* Hündürlüyü avtomatik */
-    margin-bottom: 10px; /* Şəkil ilə mətni ayıran boşluq */
+    max-width: 80%; 
+    height: auto; 
+    margin-bottom: 10px; 
 }
 
-/* Mətn stili */
 .category p {
-    font-size: 16px; /* Mətnin ölçüsü */
-    color: #333; /* Mətnin rəngi */
-    margin: 0; /* Marjin sıfır */
+    font-size: 16px; 
+    color: #333; 
+    margin: 0; 
 }
 
 
