@@ -1,0 +1,772 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+}
+
+.body { 
+    overflow: hidden;
+    margin: 0;
+}
+
+.banner {
+    background-color: #191C1F;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px;
+}
+.black-friday {
+    display: flex;
+    align-items: center;
+}
+.black {
+    background-color: #F3DE6D;
+    color: black;
+    font-weight: bold;
+    padding: 4px 8px;
+    margin-right: 5px;
+    transform: rotate(-3deg);
+
+}
+.banner .black-friday .friday {
+    font-size: 20px;
+}
+.banner .discount {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin:auto;
+}
+.banner .discount .prosent {
+    font-weight: bold;
+    font-size: 40px;
+    color: #EBC80C;
+}
+p {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.upto {
+    font-size: 14px; 
+}
+.off {
+    font-size: 20px;
+}
+.banner .shop-now {
+    background-color: #EBC80C;
+    color: #000;
+    padding: 12px;
+    text-decoration: none; 
+    font-weight: bold;
+    transform: translateX(-100px);
+}
+.banner .close {
+        width: 40px; 
+        height: 40px; 
+        background-color: rgb(56, 53, 53);
+        color: #fff; 
+        font-size: 20px; 
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        border-radius: 5px; 
+        position: relative;
+    
+}
+.banner .close:hover{
+    background-color: #0a0a0a;
+}
+
+.top-nav {
+    background-color: #1B6392;
+    padding: 10px;
+    color: #fff;
+}
+
+.menu { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.social-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons span {
+    margin-right: 10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+/* Language bar styling */
+/* Language bar styling */
+.language-bar {
+    display: flex;
+    gap: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.shop-button:hover{
+    background-color: orange;
+}
+.dropbtn {
+    background-color: #f1f1f1;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Change the background color of the dropdown button on hover */
+.dropbtn:hover {
+    background-color: #ddd;
+}
+
+
+
+.middle-nav {
+    background-color: #1B6392;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px 20px 15px;
+}
+
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search {
+    width: max-content;
+    border-radius: 2px;
+    padding: 20px;
+    position: relative;
+}
+
+.search-item {
+    position: absolute;
+    color: #191C1F;
+    transform: translateY(17px);
+    right: 40px;
+}
+
+.search-input {
+    padding: 15px 350px 15px 25px;
+}
+
+.shop-icons a{
+    margin-right: 30px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.shop-icons a:hover {
+    color: #ddd; 
+}
+
+.bottom-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.categories {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.categories > a {
+    text-decoration: none;
+    color: #5F6C72;
+    font-weight: bold;
+    padding: 14px 47px 14px 24px;
+    background-color: #F2F4F5;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Effekt əlavə olundu */
+}
+
+.categories > a:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Hover zamanı kölgə effekti */
+    transform: translateY(-2px); /* Yuxarı çıxırmış kimi effekt */
+}
+
+.category-help {
+    padding-right: 8px;
+}
+
+.category-help1 {
+    padding-left: 8px;
+}
+
+.categories > .primary {
+    background-color: #F2F4F5;
+    padding: 14px 47px 14px 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.dropdown {
+    display: none; /* Başlanğıcda gizli */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 200px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown li {
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown li a {
+    display: block;
+    padding: 10px;
+    color: #5F6C72;
+    text-decoration: none;
+}
+
+.social-icons a {
+    color: white; /* Default color for the icons */
+    transition: color 0.3s; /* Smooth transition effect */
+}
+
+.social-icons a.twitter:hover {
+    color: #1DA1F2; /* Twitter blue */
+}
+
+.social-icons a.facebook:hover {
+    color: #1877F2; /* Facebook blue */
+}
+
+.social-icons a.pinterest:hover {
+    color: #E60023; /* Pinterest red */
+}
+
+.social-icons a.reddit:hover {
+    color: #FF4500; /* Reddit orange */
+}
+
+.social-icons a.youtube:hover {
+    color: #FF0000; /* YouTube red */
+}
+
+.social-icons a.instagram:hover {
+    color: #C13584; /* Instagram gradient */
+}
+
+
+
+.dropdown li a:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+.categories > .primary:hover + .dropdown {
+    display: block; /* Yalnız "All category" üzərinə hover ediləndə açılır */
+}
+
+.number-info {
+    font-size: 16px;
+    color: #333;
+}
+
+.number-info span {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.number-info i {
+    margin-right: 8px;
+}
+
+/* Digər linklər üçün hover effekti */
+.bottom-nav a:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 50px 24px 50px;
+    gap: 24px;
+}
+
+
+.main-offer {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    background-color: #F2F4F5;
+    border-radius: 4px;
+    width: 840px;
+    height: 540px;
+}
+
+.text-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+
+.text-section > h1 {
+    padding-top: 4px;
+}
+
+.text-section > p {
+    padding-top: 16px;
+}
+
+.text-section > .shop-button {
+    margin-top: 24px;
+}
+
+.shop-button {
+    background-color: #FA8232;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none; 
+    font-weight: bold;
+    display: block;
+    width: 100px;
+
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.other-products {
+    flex-direction: column;
+}
+
+.product1 {
+    margin-bottom: 16px;
+    background-color: #191C1F;
+    border-radius: 6px;
+    display: flex;
+    position: relative;
+    
+}
+.product1 div {
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+
+.product1 > img {
+    margin-top: 40px;
+}
+.discount-product {
+    color: black;
+    background-color: #EFD33D;
+    width: 100px;
+    padding: 10px;
+    height: 35px;
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+
+
+.price {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    color: white;
+    background-color: #2DA5F3;
+    border-radius: 60%;
+    padding: 25px 20px 25px 20px;
+    font-size: 24px;
+}
+
+.product2 {
+    border-radius: 6px;
+    background-color: #F2F4F5;
+    position: relative;
+    gap: 20px;
+    height: 280px;
+    width: 424px;
+}
+
+.product2 div {
+    position: absolute;
+    right: 40px;
+    padding-top: 56px;
+}
+
+.product2  div > span {
+    position: absolute;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.product2 div > .shop-button {
+    margin-top: 44px;
+}
+
+.product2 > img {
+    position: absolute;
+    padding-top: 44px;
+    left: 32px;
+}
+
+.product2 div > span {
+    color: #2DA5F3;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.feature span {
+    font-size: 14px;
+    color: #666;
+}
+
+.deals { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 55px;
+    padding: 6px;
+}
+
+.best-deals {
+    display: flex;
+    gap:29px;
+}
+
+.best-deals span {
+    transform: translateY(7px);
+}
+
+.best-deals >.time {
+    background-color: #F3DE6D;
+    padding: 6px;
+    transform: translateY(-1px);
+}
+
+.best-deals > .end {
+    font-size: 16px;
+}
+
+.deals a {
+    text-decoration: none;
+    color: #2DA5F3;
+    right: 50px;
+}
+
+.container2 {
+    display: flex;
+    max-width: 1250px;
+    margin: 50px auto;
+    background-color: #fff;
+    border: 1px solid #E4E7E9;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Left panel styling */
+.left-panel {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: box-shadow 0.2s ease;
+}
+
+/* Hover effect for shadow */
+.left-panel:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px); /* Optional: adds a slight upward motion */
+}
+
+/* Styling for other elements */
+.advert {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.discount-product2, .hot {
+    position: absolute;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.discount-product2 {
+    top: 0;
+    left: 0;
+}
+
+.hot {
+    top: 0;
+    right: 0;
+}
+
+.description {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.product-price {
+    font-size: 20px;
+    color: #333;
+}
+
+.product-old-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 10px;
+}
+
+.carts {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.heart, .addcart, .eye {
+    cursor: pointer;
+}
+
+.addcart {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.addcart:hover {
+    background-color: #ddd;
+}
+
+
+.right-panel {
+    width: 55%;
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+.top-panel, .bottom-panel {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.category-container {
+    display: flex;
+    overflow-x: auto; /* Yatay sürüşdürmə üçün */
+    padding: 20px; /* Üst və alt boşluq */
+    gap: 20px; /* Elementlər arasında boşluq */
+    scroll-behavior: smooth; /* Hamar sürüşdürmə */
+}
+
+.category {
+    background-color: #fff; /* Arxa fon */
+    border-radius: 10px; /* Kənarları yuvarlaqlaşdır */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Kölgə */
+    text-align: center; /* Mətni ortala */
+    padding: 15px; /* Daxili boşluq */
+    min-width: 150px; /* Hər kateqoriya üçün minimum genişlik */
+    cursor: pointer; /* Kursuru göstəriş edəcək */
+}
+
+/* Şəkil stili */
+.category img {
+    max-width: 80%; /* Şəkilin maksimum eni */
+    height: auto; /* Hündürlüyü avtomatik */
+    margin-bottom: 10px; /* Şəkil ilə mətni ayıran boşluq */
+}
+
+/* Mətn stili */
+.category p {
+    font-size: 16px; /* Mətnin ölçüsü */
+    color: #333; /* Mətnin rəngi */
+    margin: 0; /* Marjin sıfır */
+}
+
+
+.product-price {
+    color: #2DA5F3;
+}
+
+.sold-out { 
+    color: #fff;
+    background-color: #929FA5;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+
+.element1, .element2, .element3, .element4, .element5, .element6, .element7, .element8 {
+    width: 48%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.element1 img, .element2 img, .element3 img, .element4 img, .element5 img, .element6 img, .element7 img, .element8 img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+}
+
+.shop {
+    padding-top: 20px;
+}
+
+.shop > .name {
+    display: flex;
+    justify-content: center;
+}
+
+.category-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+
+.category {
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.category p { 
+    justify-content: center;
+}
+
+.category img {
+    width: 140px;
+    height: 100px;
+    margin-bottom: 10px;
+}
